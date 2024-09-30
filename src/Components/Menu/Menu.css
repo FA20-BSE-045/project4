@@ -424,6 +424,7 @@ button:hover{
   /* Hero section adjustments */
   .hero {
     height: 100vh; /* Decrease height for smaller screens */
+    width: 100%;
     margin: 10px;
     padding: 10px;
     border-radius: 10px;
