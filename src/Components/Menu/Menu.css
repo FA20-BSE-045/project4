@@ -1,0 +1,572 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 10px 0;
+    margin-top: 2%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+/* Hero section */
+.hero {
+    background-image: url('https://assets.nicepagecdn.com/11a8ddce/4267640/images/vegetables-set-left-black-slate.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 40px;
+    margin: 8%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.shape{
+    border-radius: 100%;
+    background-color: #F1AE0E;
+    color: #000000;
+    text-align: center;
+    height: 200px;
+    max-width:20%;
+    margin-top: 50px;
+    margin-left: 50px;
+    padding: 40px;
+}
+.shape h1{
+    font-size: 60px;
+    font-weight: 800;
+    color: black;
+}
+
+.shape p{
+    font-size: 20px;
+}
+h1 {
+    font-size: 60px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    
+
+}
+
+.content {
+    max-width: 500px;
+    color: #fff;
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 20px;
+    margin-right: 50%;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #F1AE0E;
+    border-radius: 50px;
+    width: 50%;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    
+}
+ button:hover{
+    background-color:#d4e764 ;
+    color: black;
+    font-weight: bold;
+ }
+/*--------Eperience--------*/
+.Experience h4{
+color: black; 
+font-size: 60px; 
+font-family: 'Oswald', sans-serif;
+}
+.Experience {
+    display: flex;
+    flex-direction: column; /* Stack heading and cards vertically */
+    align-items: center;
+    padding: 40px;
+    background-color:#f3be44;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  /* Header section styling */
+  .Experience-header {
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .Experience-header h4 {
+    margin-bottom: 10px; /* Add space below the heading */
+  }
+  
+  /* Experience cards container */
+  .menu-cards {
+    
+    margin-left: 60px;
+    margin-bottom: 30px;
+    gap: 50px;
+    padding: 30px;
+    display: flex; /* Use flexbox to align cards horizontally */
+    flex-wrap: wrap; /* Allows wrapping on smaller screens */
+    width: 100%;
+  }
+  
+  /* Experience card styles */
+  .card {
+    
+    height: 70vh;
+    background-color: white;
+    text-align: center;
+    transition: transform 0.3s;
+   
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50px;
+    background-size: cover;
+    width: 260px;
+    height: 300px;
+  }
+  
+  .card h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #263547;
+  }
+  
+  .card button {
+    margin-bottom: 10px;
+    width: 150px;
+  }
+  
+  .card a {
+    color: #ff3d00;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+  }
+ 
+  /* Centering the card on the page */
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: #a0e050;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling the card */
+.contact-card {
+  background-color: white;
+  border-radius: 40px;
+  padding: 30px 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 1000px;
+  width: 100%;
+}
+
+/* Styling the heading */
+.contact-card h1 {
+  color: #000;
+  font-size: 48px;
+  margin-bottom: 10px;
+  font-family: 'Montserrat',  sans-serif;
+}
+
+/* Styling the paragraph */
+.contact-card p {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+/* Styling the contact information */
+.contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  color: #000;
+}
+
+.contact-info span {
+  margin-right: 10px;
+  color: #f1a20a;
+}
+/*-------------------second-section--------------------*/
+.second-section {
+  background-image: url('https://assets.nicepagecdn.com/11a8ddce/4267640/images/fresh-salad-with-turkey-eggs-vegetables.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 40px;
+  margin: 8%;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  text-align: left;
+}
+
+.section h1 {
+  font-size: 48px;
+  color: #fff;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+
+}
+
+.section {
+  max-width: 600px;
+  color: #fff;
+  text-align: left;
+  padding-top: 30%;
+  padding-left: 20px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #F1AE0E;
+  border-radius: 50px;
+  width: 50%;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+}
+button:hover{
+  background-color:#d4e764 ;
+  color: black;
+  font-weight: bold;
+}
+
+/*--------------------------------four-section----------------------------*/
+.four-section h4{
+  color: black; 
+  font-size: 60px; 
+  font-family: 'Oswald', sans-serif;
+  }
+  .four-section {
+      display: flex;
+      flex-direction: column; /* Stack heading and cards vertically */
+      align-items: center;
+      padding: 40px;
+      background-color:white;
+      text-align: center;
+      margin-top: 50px;
+    }
+    
+    /* Header section styling */
+    .four-section header {
+      text-align: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    
+    .four-section header h4 {
+      margin-bottom: 10px; /* Add space below the heading */
+    }
+
+    .section-cards {
+      margin-left: 60px;
+      margin-bottom: 30px;
+      gap: 50px;
+      padding: 30px;
+      display: flex; /* Use flexbox to align cards horizontally */
+      flex-wrap: wrap; /* Allows wrapping on smaller screens */
+      width: 100%;
+    }
+
+    .section-cards button {
+      padding: 20px;
+      font-size: 16px;
+      color:black;
+      background-color: #99E54D;
+      border-radius: 50px;
+      width: 60%;
+      cursor: pointer;
+      text-align: center;
+      border: none;
+      
+  }
+   button:hover{
+      background-color:#d4e764 ;
+      color: black;
+      font-weight: bold;
+   }
+/*---------------five-section-------------------*/
+   .five-section {
+    background-image: url('https://assets.nicepagecdn.com/11a8ddce/4267640/images/juicy-steak-medium-rare-beef-with-spices-grilled-vegetables.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 40px;
+    margin: 8%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    text-align: left;
+  }
+  
+  .five h1 {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+  
+  }
+  
+  .five {
+    max-width: 600px;
+    color: #fff;
+    text-align: left;
+    padding-top: 30%;
+    padding-left: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #F1AE0E;
+    border-radius: 50px;
+    width: 50%;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+  }
+  button:hover{
+    background-color:#d4e764 ;
+    color: black;
+    font-weight: bold;
+  }
+
+  /*------------------------conatiner---------------*/
+  
+   /* Centering the card on the page */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: #F1AE0E;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*-----------media-------------*/
+/* Media query for mobile devices (screen width less than 768px) */
+@media (max-width: 768px) {
+  
+  /* Hero section adjustments */
+  .hero {
+    height: 100vh; /* Decrease height for smaller screens */
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .content {
+    padding-top: 10%;
+    padding-left: 10px;
+    margin-right: 10px;
+    max-width: 100%; /* Ensure content takes full width */
+  }
+
+  h1 {
+    font-size: 40px; /* Adjust font size for smaller screens */
+  }
+
+  p {
+    font-size: 16px; /* Slightly reduce paragraph font size */
+  }
+
+  button {
+    width: 80%; /* Make button wider on mobile */
+    padding: 15px;
+    font-size: 14px;
+  }
+
+  /* Adjust the shape section */
+  .shape {
+    height: 150px;
+    max-width: 60%;
+    margin-left: 20px;
+    padding: 20px;
+  }
+
+  .shape h1 {
+    font-size: 40px;
+  }
+
+  .shape p {
+    font-size: 16px;
+  }
+
+  /* Adjust Experience section */
+  .Experience {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .Experience h4 {
+    font-size: 40px;
+  }
+
+  .menu-cards {
+    flex-direction: column; /* Stack cards vertically */
+    padding: 10px;
+    gap: 20px;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .card {
+    width: 100%;
+    height: auto; /* Ensure card height auto-adjusts */
+  }
+
+  .card img {
+    width: 100%;
+    height: auto; /* Ensure images are responsive */
+  }
+
+  .card h3 {
+    font-size: 1.2rem;
+  }
+
+  /* Contact section adjustments */
+  .contact-container {
+    height: auto;
+    padding: 20px;
+  }
+
+  .contact-card {
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+  .contact-card h1 {
+    font-size: 32px;
+  }
+
+  .contact-info {
+    font-size: 24px;
+  }
+
+  /* Second section adjustments */
+  .second-section {
+    height: 100vh;
+    margin: 5%;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .section {
+    padding-top: 30%;
+    padding-left: 10px;
+    max-width: 100%;
+  }
+
+  .section h1 {
+    font-size: 36px;
+  }
+
+  /* Four-section adjustments */
+  .four-section h4 {
+    font-size: 40px;
+  }
+
+  .section-cards {
+    padding: 10px;
+    gap: 20px;
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .section-cards button {
+    width: 80%;
+    padding: 15px;
+  }
+
+  /* Five-section adjustments */
+  .five-section {
+    height: auto;
+    margin: 5%;
+    padding: 10px;
+    border-radius: 20px;
+  }
+
+  .five h1 {
+    font-size: 36px;
+  }
+
+  /* Container adjustments */
+  .container {
+    height: auto;
+    padding: 10px;
+  }
+}
